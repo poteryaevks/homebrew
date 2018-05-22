@@ -1,0 +1,782 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\HomebrewCalc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#include ""afxprint.rc""    // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WORT DIALOGEX 0, 0, 459, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "Расчет затора"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    GROUPBOX        "",IDC_STATIC,14,7,209,202,BS_BITMAP
+    EDITTEXT        IDC_WIEGHT_1,82,94,56,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    CTEXT           "(кг)",IDC_STATIC,139,93,21,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_WIEGHT_2,82,118,56,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,225,7,216,79
+    CTEXT           "Солод 1:",IDC_STATIC,23,20,41,12,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_WIEGHT_3,82,142,56,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_WIEGHT_4,82,166,56,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PC,331,19,56,14,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Расчетная плотность:",IDC_STATIC,242,19,88,14,WS_BORDER,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_PLATO,331,41,56,14,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    COMBOBOX        IDC_MALT_1,65,21,126,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    COMBOBOX        IDC_MALT_3,65,52,126,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    COMBOBOX        IDC_MALT_2,65,36,126,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    COMBOBOX        IDC_MALT_4,65,69,126,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "Calculate",IDC_CALCULATE,346,195,50,14
+    CTEXT           "Солод 2:",IDC_STATIC,23,36,41,12,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Солод 4:",IDC_STATIC,23,69,41,12,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Солод 3:",IDC_STATIC,23,52,41,12,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Масса солода1:",IDC_STATIC,23,141,58,15,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Масса солода1:",IDC_STATIC,22,93,58,15,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Масса солода1:",IDC_STATIC,22,165,58,15,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_HYDROMOD,82,189,56,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    CTEXT           "Гидромодуль:",IDC_STATIC,22,188,58,15,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "(кг)",IDC_STATIC,139,118,21,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+    CTEXT           "(кг)",IDC_STATIC,139,142,21,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+    CTEXT           "(кг)",IDC_STATIC,139,166,21,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+    CTEXT           "(кг)",IDC_STATIC,139,189,21,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+    CTEXT           "Масса солода1:",IDC_STATIC,22,117,58,15,SS_WORDELLIPSIS | WS_BORDER,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "Расчетная плотность:",IDC_STATIC,242,41,88,14,SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CTEXT           "(ПК)",IDC_STATIC,388,19,21,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Cancel",IDCANCEL,402,195,50,14
+    DEFPUSHBUTTON   "OK",IDOK,291,195,50,14
+    CTEXT           "(Плато)",IDC_STATIC,388,41,37,14,SS_CENTERIMAGE | SS_ENDELLIPSIS | WS_BORDER,WS_EX_CLIENTEDGE
+END
+
+IDD_RINSING DIALOGEX 0, 0, 459, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Расчет промывки"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,344,196,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,402,196,50,14
+    GROUPBOX        "",IDC_STATIC,7,7,445,203
+END
+
+IDD_HOP DIALOGEX 0, 0, 459, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | DS_CENTERMOUSE | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Расчет охмеления"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,345,196,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,402,196,50,14
+    GROUPBOX        "",IDC_STATIC,6,7,446,203
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_WORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 209
+    END
+
+    IDD_RINSING, DIALOG
+    BEGIN
+        MOCKUP, 0, 100, 60, 50, "..\..\..\..\VC2017_Mylib\dll\bitmap1.bmp"
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_HOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_WORT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_RINSING AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_HOP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_WORT DLGINIT
+BEGIN
+    IDC_MALT_1, 0x403, 2, 0
+0x0020, 
+    IDC_MALT_1, 0x403, 20, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xebee, 0xe4ee, 
+0x00e0, 
+    IDC_MALT_1, 0x403, 21, 0
+0x2d36, 0xfff0, 0xede4, 0xe9fb, 0xf120, 0xe0f2, 0xe4ed, 0xf0e0, 0xedf2, 
+0xe9fb, "\000" 
+    IDC_MALT_1, 0x403, 26, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xe5e2, 0xebf2, 
+0xe3ee, 0x20ee, 0xebfd, 0x00ff, 
+    IDC_MALT_1, 0x403, 8, 0
+0xe8c1, 0xeaf1, 0xe8e2, 0x00f2, 
+    IDC_MALT_1, 0x403, 8, 0
+0xe8c2, 0xf2ea, 0xf0ee, 0x00e8, 
+    IDC_MALT_1, 0x403, 6, 0
+0xe8c2, 0xede5, 0x00e0, 
+    IDC_MALT_1, 0x403, 6, 0
+0xfecc, 0xe8ed, 0x00ea, 
+    IDC_MALT_1, 0x403, 11, 0
+0xeeca, 0xe8f0, 0xedf7, 0xe2e5, 0xe9fb, "\000" 
+    IDC_MALT_1, 0x403, 11, 0
+0xe0ca, 0xe0f0, 0xcf20, 0xebe8, 0x2ee7, "\000" 
+    IDC_MALT_1, 0x403, 27, 0
+0xe5cb, 0xeae3, 0xe9e8, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x2d30, 0x3531, 0x294c, "\000" 
+    IDC_MALT_1, 0x403, 28, 0
+0xe2d1, 0xf2e5, 0xfbeb, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3532, 0x342d, 0x4c35, 0x0029, 
+    IDC_MALT_1, 0x403, 28, 0
+0xf0d1, 0xe4e5, 0xe8ed, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3036, 0x372d, 0x4c35, 0x0029, 
+    IDC_MALT_1, 0x403, 25, 0
+0xe5d2, 0xedec, 0xe9fb, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x3032, 0x294c, "\000" 
+    IDC_MALT_1, 0x403, 10, 0
+0x7053, 0x6365, 0x6169, 0x206c, 0x00c2, 
+    IDC_MALT_1, 0x403, 11, 0
+0xeed8, 0xeeea, 0xe0eb, 0xede4, 0xe9fb, "\000" 
+    IDC_MALT_1, 0x403, 10, 0
+0x6f52, 0x7473, 0x616d, 0x746c, 0x007a, 
+    IDC_MALT_1, 0x403, 18, 0
+0xe1ce, 0xe0e6, 0xe5f0, 0xeded, 0xe9fb, 0xff20, 0xecf7, 0xede5, 0x00fc, 
+
+    IDC_MALT_1, 0x403, 7, 0
+0xe5d7, 0xedf0, 0xe9fb, "\000" 
+    IDC_MALT_1, 0x403, 10, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x00e9, 
+    IDC_MALT_1, 0x403, 7, 0
+0xe6d0, 0xede0, 0xe9ee, "\000" 
+    IDC_MALT_1, 0x403, 15, 0
+0xe2ce, 0xfff1, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_1, 0x403, 18, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+
+    IDC_MALT_1, 0x403, 16, 0
+0xf7df, 0xe5ec, 0xeded, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+    IDC_MALT_1, 0x403, 17, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_1, 0x403, 15, 0
+0xe8d0, 0xeef1, 0xfbe2, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_1, 0x403, 27, 0
+0xe0cc, 0xfceb, 0xeef2, 0xe5e4, 0xf1ea, 0xf0f2, 0xede8, 0xe2ee, 0xe9fb, 
+0xef20, 0xf0ee, 0xf8ee, 0xeaee, "\000" 
+    IDC_MALT_1, 0x403, 17, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe9fb, 0xf120, 0xf5e0, 0xf0e0, "\000" 
+    IDC_MALT_1, 0x403, 13, 0
+0xf0d2, 0xf1ee, 0xedf2, 0xeae8, 0xe2ee, 0xe9fb, "\000" 
+    IDC_MALT_3, 0x403, 2, 0
+0x0020, 
+    IDC_MALT_3, 0x403, 20, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xebee, 0xe4ee, 
+0x00e0, 
+    IDC_MALT_3, 0x403, 21, 0
+0x2d36, 0xfff0, 0xede4, 0xe9fb, 0xf120, 0xe0f2, 0xe4ed, 0xf0e0, 0xedf2, 
+0xe9fb, "\000" 
+    IDC_MALT_3, 0x403, 26, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xe5e2, 0xebf2, 
+0xe3ee, 0x20ee, 0xebfd, 0x00ff, 
+    IDC_MALT_3, 0x403, 8, 0
+0xe8c1, 0xeaf1, 0xe8e2, 0x00f2, 
+    IDC_MALT_3, 0x403, 8, 0
+0xe8c2, 0xf2ea, 0xf0ee, 0x00e8, 
+    IDC_MALT_3, 0x403, 6, 0
+0xe8c2, 0xede5, 0x00e0, 
+    IDC_MALT_3, 0x403, 6, 0
+0xfecc, 0xe8ed, 0x00ea, 
+    IDC_MALT_3, 0x403, 11, 0
+0xeeca, 0xe8f0, 0xedf7, 0xe2e5, 0xe9fb, "\000" 
+    IDC_MALT_3, 0x403, 11, 0
+0xe0ca, 0xe0f0, 0xcf20, 0xebe8, 0x2ee7, "\000" 
+    IDC_MALT_3, 0x403, 27, 0
+0xe5cb, 0xeae3, 0xe9e8, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x2d30, 0x3531, 0x294c, "\000" 
+    IDC_MALT_3, 0x403, 28, 0
+0xe2d1, 0xf2e5, 0xfbeb, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3532, 0x342d, 0x4c35, 0x0029, 
+    IDC_MALT_3, 0x403, 28, 0
+0xf0d1, 0xe4e5, 0xe8ed, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3036, 0x372d, 0x4c35, 0x0029, 
+    IDC_MALT_3, 0x403, 25, 0
+0xe5d2, 0xedec, 0xe9fb, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x3032, 0x294c, "\000" 
+    IDC_MALT_3, 0x403, 10, 0
+0x7053, 0x6365, 0x6169, 0x206c, 0x00c2, 
+    IDC_MALT_3, 0x403, 11, 0
+0xeed8, 0xeeea, 0xe0eb, 0xede4, 0xe9fb, "\000" 
+    IDC_MALT_3, 0x403, 10, 0
+0x6f52, 0x7473, 0x616d, 0x746c, 0x007a, 
+    IDC_MALT_3, 0x403, 18, 0
+0xe1ce, 0xe0e6, 0xe5f0, 0xeded, 0xe9fb, 0xff20, 0xecf7, 0xede5, 0x00fc, 
+
+    IDC_MALT_3, 0x403, 7, 0
+0xe5d7, 0xedf0, 0xe9fb, "\000" 
+    IDC_MALT_3, 0x403, 10, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x00e9, 
+    IDC_MALT_3, 0x403, 7, 0
+0xe6d0, 0xede0, 0xe9ee, "\000" 
+    IDC_MALT_3, 0x403, 15, 0
+0xe2ce, 0xfff1, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_3, 0x403, 18, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+
+    IDC_MALT_3, 0x403, 16, 0
+0xf7df, 0xe5ec, 0xeded, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+    IDC_MALT_3, 0x403, 17, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_3, 0x403, 15, 0
+0xe8d0, 0xeef1, 0xfbe2, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_3, 0x403, 27, 0
+0xe0cc, 0xfceb, 0xeef2, 0xe5e4, 0xf1ea, 0xf0f2, 0xede8, 0xe2ee, 0xe9fb, 
+0xef20, 0xf0ee, 0xf8ee, 0xeaee, "\000" 
+    IDC_MALT_3, 0x403, 17, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe9fb, 0xf120, 0xf5e0, 0xf0e0, "\000" 
+    IDC_MALT_3, 0x403, 13, 0
+0xf0d2, 0xf1ee, 0xedf2, 0xeae8, 0xe2ee, 0xe9fb, "\000" 
+    IDC_MALT_2, 0x403, 2, 0
+0x0020, 
+    IDC_MALT_2, 0x403, 20, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xebee, 0xe4ee, 
+0x00e0, 
+    IDC_MALT_2, 0x403, 21, 0
+0x2d36, 0xfff0, 0xede4, 0xe9fb, 0xf120, 0xe0f2, 0xe4ed, 0xf0e0, 0xedf2, 
+0xe9fb, "\000" 
+    IDC_MALT_2, 0x403, 26, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xe5e2, 0xebf2, 
+0xe3ee, 0x20ee, 0xebfd, 0x00ff, 
+    IDC_MALT_2, 0x403, 8, 0
+0xe8c1, 0xeaf1, 0xe8e2, 0x00f2, 
+    IDC_MALT_2, 0x403, 8, 0
+0xe8c2, 0xf2ea, 0xf0ee, 0x00e8, 
+    IDC_MALT_2, 0x403, 6, 0
+0xe8c2, 0xede5, 0x00e0, 
+    IDC_MALT_2, 0x403, 6, 0
+0xfecc, 0xe8ed, 0x00ea, 
+    IDC_MALT_2, 0x403, 11, 0
+0xeeca, 0xe8f0, 0xedf7, 0xe2e5, 0xe9fb, "\000" 
+    IDC_MALT_2, 0x403, 11, 0
+0xe0ca, 0xe0f0, 0xcf20, 0xebe8, 0x2ee7, "\000" 
+    IDC_MALT_2, 0x403, 27, 0
+0xe5cb, 0xeae3, 0xe9e8, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x2d30, 0x3531, 0x294c, "\000" 
+    IDC_MALT_2, 0x403, 28, 0
+0xe2d1, 0xf2e5, 0xfbeb, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3532, 0x342d, 0x4c35, 0x0029, 
+    IDC_MALT_2, 0x403, 28, 0
+0xf0d1, 0xe4e5, 0xe8ed, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3036, 0x372d, 0x4c35, 0x0029, 
+    IDC_MALT_2, 0x403, 25, 0
+0xe5d2, 0xedec, 0xe9fb, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x3032, 0x294c, "\000" 
+    IDC_MALT_2, 0x403, 10, 0
+0x7053, 0x6365, 0x6169, 0x206c, 0x00c2, 
+    IDC_MALT_2, 0x403, 11, 0
+0xeed8, 0xeeea, 0xe0eb, 0xede4, 0xe9fb, "\000" 
+    IDC_MALT_2, 0x403, 10, 0
+0x6f52, 0x7473, 0x616d, 0x746c, 0x007a, 
+    IDC_MALT_2, 0x403, 18, 0
+0xe1ce, 0xe0e6, 0xe5f0, 0xeded, 0xe9fb, 0xff20, 0xecf7, 0xede5, 0x00fc, 
+
+    IDC_MALT_2, 0x403, 7, 0
+0xe5d7, 0xedf0, 0xe9fb, "\000" 
+    IDC_MALT_2, 0x403, 10, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x00e9, 
+    IDC_MALT_2, 0x403, 7, 0
+0xe6d0, 0xede0, 0xe9ee, "\000" 
+    IDC_MALT_2, 0x403, 15, 0
+0xe2ce, 0xfff1, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_2, 0x403, 18, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+
+    IDC_MALT_2, 0x403, 16, 0
+0xf7df, 0xe5ec, 0xeded, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+    IDC_MALT_2, 0x403, 17, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_2, 0x403, 15, 0
+0xe8d0, 0xeef1, 0xfbe2, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_2, 0x403, 27, 0
+0xe0cc, 0xfceb, 0xeef2, 0xe5e4, 0xf1ea, 0xf0f2, 0xede8, 0xe2ee, 0xe9fb, 
+0xef20, 0xf0ee, 0xf8ee, 0xeaee, "\000" 
+    IDC_MALT_2, 0x403, 17, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe9fb, 0xf120, 0xf5e0, 0xf0e0, "\000" 
+    IDC_MALT_2, 0x403, 13, 0
+0xf0d2, 0xf1ee, 0xedf2, 0xeae8, 0xe2ee, 0xe9fb, "\000" 
+    IDC_MALT_4, 0x403, 2, 0
+0x0020, 
+    IDC_MALT_4, 0x403, 20, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xebee, 0xe4ee, 
+0x00e0, 
+    IDC_MALT_4, 0x403, 21, 0
+0x2d36, 0xfff0, 0xede4, 0xe9fb, 0xf120, 0xe0f2, 0xe4ed, 0xf0e0, 0xedf2, 
+0xe9fb, "\000" 
+    IDC_MALT_4, 0x403, 26, 0
+0x2d32, 0xfff0, 0xede4, 0xe9fb, 0xe420, 0xffeb, 0xf120, 0xe5e2, 0xebf2, 
+0xe3ee, 0x20ee, 0xebfd, 0x00ff, 
+    IDC_MALT_4, 0x403, 8, 0
+0xe8c1, 0xeaf1, 0xe8e2, 0x00f2, 
+    IDC_MALT_4, 0x403, 8, 0
+0xe8c2, 0xf2ea, 0xf0ee, 0x00e8, 
+    IDC_MALT_4, 0x403, 6, 0
+0xe8c2, 0xede5, 0x00e0, 
+    IDC_MALT_4, 0x403, 6, 0
+0xfecc, 0xe8ed, 0x00ea, 
+    IDC_MALT_4, 0x403, 11, 0
+0xeeca, 0xe8f0, 0xedf7, 0xe2e5, 0xe9fb, "\000" 
+    IDC_MALT_4, 0x403, 11, 0
+0xe0ca, 0xe0f0, 0xcf20, 0xebe8, 0x2ee7, "\000" 
+    IDC_MALT_4, 0x403, 27, 0
+0xe5cb, 0xeae3, 0xe9e8, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x2d30, 0x3531, 0x294c, "\000" 
+    IDC_MALT_4, 0x403, 28, 0
+0xe2d1, 0xf2e5, 0xfbeb, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3532, 0x342d, 0x4c35, 0x0029, 
+    IDC_MALT_4, 0x403, 28, 0
+0xf0d1, 0xe4e5, 0xe8ed, 0x20e9, 0xf2f1, 0xeae5, 0xffeb, 0xeded, 0xe9fb, 
+0x2820, 0x3036, 0x372d, 0x4c35, 0x0029, 
+    IDC_MALT_4, 0x403, 25, 0
+0xe5d2, 0xedec, 0xe9fb, 0xf120, 0xe5f2, 0xebea, 0xedff, 0xfbed, 0x20e9, 
+0x3128, 0x3032, 0x294c, "\000" 
+    IDC_MALT_4, 0x403, 10, 0
+0x7053, 0x6365, 0x6169, 0x206c, 0x00c2, 
+    IDC_MALT_4, 0x403, 11, 0
+0xeed8, 0xeeea, 0xe0eb, 0xede4, 0xe9fb, "\000" 
+    IDC_MALT_4, 0x403, 10, 0
+0x6f52, 0x7473, 0x616d, 0x746c, 0x007a, 
+    IDC_MALT_4, 0x403, 18, 0
+0xe1ce, 0xe0e6, 0xe5f0, 0xeded, 0xe9fb, 0xff20, 0xecf7, 0xede5, 0x00fc, 
+
+    IDC_MALT_4, 0x403, 7, 0
+0xe5d7, 0xedf0, 0xe9fb, "\000" 
+    IDC_MALT_4, 0x403, 10, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x00e9, 
+    IDC_MALT_4, 0x403, 7, 0
+0xe6d0, 0xede0, 0xe9ee, "\000" 
+    IDC_MALT_4, 0x403, 15, 0
+0xe2ce, 0xfff1, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_4, 0x403, 18, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+
+    IDC_MALT_4, 0x403, 16, 0
+0xf7df, 0xe5ec, 0xeded, 0xe5fb, 0xf520, 0xeeeb, 0xfcef, 0x00ff, 
+    IDC_MALT_4, 0x403, 17, 0
+0xf8cf, 0xede5, 0xf7e8, 0xfbed, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_4, 0x403, 15, 0
+0xe8d0, 0xeef1, 0xfbe2, 0x20e5, 0xebf5, 0xefee, 0xfffc, "\000" 
+    IDC_MALT_4, 0x403, 27, 0
+0xe0cc, 0xfceb, 0xeef2, 0xe5e4, 0xf1ea, 0xf0f2, 0xede8, 0xe2ee, 0xe9fb, 
+0xef20, 0xf0ee, 0xf8ee, 0xeaee, "\000" 
+    IDC_MALT_4, 0x403, 17, 0
+0xf3ca, 0xf3ea, 0xf3f0, 0xede7, 0xe9fb, 0xf120, 0xf5e0, 0xf0e0, "\000" 
+    IDC_MALT_4, 0x403, 13, 0
+0xf0d2, 0xf1ee, 0xedf2, 0xeae8, 0xe2ee, 0xe9fb, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\HB.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About HomebrewCalc...",      ID_APP_ABOUT
+    END
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About HomebrewCalc"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDI_HB_ICON,IDR_ABOUTBOX,14,14,20,20
+    LTEXT           "HomebrewCalc, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2017",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "HomebrewCalc"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "HomebrewCalc.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "HomebrewCalc.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "HomebrewCalc\n\nHomebrewCalc\n\n\nHomebrewCalc.Document\nHomebrewCalc.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "HomebrewCalc"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_DIRECT    "Print the active document using current options\nQuick Print"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\HomebrewCalc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#include "afxprint.rc"    // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
