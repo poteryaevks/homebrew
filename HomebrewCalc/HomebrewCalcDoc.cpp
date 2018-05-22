@@ -30,7 +30,7 @@ END_MESSAGE_MAP()
 CHomebrewCalcDoc::CHomebrewCalcDoc()
 {
 	// TODO: add one-time construction code here
-
+ //dfsfsfdfdfdfsdfsdfsdfdsfd
 }
 
 CHomebrewCalcDoc::~CHomebrewCalcDoc()
